@@ -1,0 +1,4 @@
+packages:
+  - 'packages/edp-extension'
+  - 'packages/edp-simulation'
+  

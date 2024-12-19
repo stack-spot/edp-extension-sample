@@ -1,0 +1,34 @@
+[
+  {
+    "id": "1",
+    "tag": "production",
+    "name": "Taskbot AA - Valida Cancelamento Itaucard",
+    "requires": ["Low-code"],
+    "description": "A solução visa acessar o sistema IR Atendimento Itaucard e verificar o status do certificado informado como parâmetro.",
+    "related": ["2"]
+  },
+  {
+    "id": "2",
+    "tag": "production",
+    "name": "Gestão de e-mail",
+    "requires": ["Low-code"],
+    "description": "A proposto é fornecer uma forma de gerenciar e-mails para áreas que tem esse canalcomo entrada de demandas.",
+    "related": ["3"]
+  },
+  {
+    "id": "3",
+    "tag": "production",
+    "name": "Messageria Email e SMS - EK7",
+    "requires": ["Low-code"],
+    "description": "Solução integrada e configurável que possibilita o envio de notificações de SMS e E-mail aos clientes finais.",
+    "related": ["3"]
+  },
+  {
+    "id": "4",
+    "tag": "production",
+    "name": "Orquestrador de Tickets - HN2",
+    "requires": ["High-code"],
+    "description": "Produto que promove o desacoplamento entre as plataformas de registro de atendimento em primeiro nível.",
+    "related": ["1"]
+  }
+]
