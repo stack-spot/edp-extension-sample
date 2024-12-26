@@ -85,6 +85,7 @@ example, but is explained [here](https://github.com/stack-spot/citron-navigator/
 We don't provide the Stackspot's access token to the extension, so, in order to request data from the Stackspot API, you must use the SDK,
 which will in turn make the request for you.
 
-Here's a documentation extracted from the jsdocs of the source code: [/docs/index.html](todo).
+Here's a documentation extracted from the jsdocs of the source code:
+[network documentation](https://tiagoperes.github.io/stackspot-extension-sample/).
 
 As a consumer of `portal-extension`, you can access every client under "client" in the documentation menu.
