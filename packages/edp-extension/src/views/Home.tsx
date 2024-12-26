@@ -4,6 +4,7 @@ import { ProductCard } from 'components/ProductCard'
 import { ReuseCard } from 'components/ReuseCard'
 import { root, ViewPropsOf } from 'navigation'
 import { styled } from 'styled-components'
+import { StudiosList } from '../containers/StudiosList'
 import products from '../mock/products.json'
 import reuse from '../mock/reuse.json'
 
@@ -116,5 +117,7 @@ export const Home = ({ route }: ViewPropsOf<'root'>) => (
         Abrir uma confirmação
       </Button>
     </Flex>
+    <Text appearance="h3">Exemplo de chamada de rede: listagem de studios</Text>
+    <StudiosList />
   </Styled>
 )

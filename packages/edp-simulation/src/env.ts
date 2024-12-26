@@ -11,7 +11,10 @@ if (invalidEnvVars.length) {
   )
 }
 
+type ModeType = 'development' | 'staging' | 'production' | 'test'
+
 // Exports the env variables
 
 export const ACCOUNT_URL = import.meta.env.VITE_APP_ACCOUNT_URL ?? ''
 export const STACKSPOT_IAM_URL = import.meta.env.VITE_APP_STACKSPOT_IAM_URL ?? ''
+export const MODE = import.meta.env.MODE as ModeType ?? 'production'

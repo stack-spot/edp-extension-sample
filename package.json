@@ -7,8 +7,9 @@
   ],
   "scripts": {
     "start:extension": "pnpm --filter edp-extension start",
-    "start:edp": "pnpm --filter edp-simulation start",
-    "start": "pnpm start:extension & pnpm start:edp"
+    "start:edp": "pnpm --filter edp-simulation start --mode production",
+    "start": "pnpm start:extension & pnpm start:edp",
+    "build": "pnpm --filter edp-extension build"
   },
   "engines": {
     "node": ">=18",

@@ -27,10 +27,9 @@
       "containers/*": ["./src/containers/*"],
       "hooks/*": ["./src/hooks/*"],
       "navigation": ["./src/generated/navigation"],
-      "env": ["./src/env"],
-      "@stack-spot/portal-extension": ["../../client/src/index"]
+      "env": ["./src/env"]
     }
   },
-  "include": ["src", "../../client/src"],
+  "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
