@@ -89,3 +89,6 @@ Here's a documentation extracted from the jsdocs of the source code:
 [network documentation](https://tiagoperes.github.io/stackspot-extension-sample/).
 
 As a consumer of `portal-extension`, you can access every client under "client" in the documentation menu.
+
+Attention: we don't yet have a way of accessing the Stackspot APIs while running this project in localhost. This is going to be addressed
+asap.

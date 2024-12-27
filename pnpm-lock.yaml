@@ -23,17 +23,20 @@ importers:
         specifier: 1.7.0
         version: 1.7.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@stack-spot/portal-components':
-        specifier: 2.10.4
-        version: 2.10.4(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(@citric/ui@6.5.5(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-theme@1.1.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-translate@1.2.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.17)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        specifier: 2.11.0
+        version: 2.11.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(@citric/ui@6.5.5(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-theme@1.1.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-translate@1.2.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.17)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@stack-spot/portal-extension':
         specifier: ^0.3.0
-        version: 0.3.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(@citric/ui@6.5.5(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-theme@1.1.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-translate@1.2.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@tanstack/react-query@5.62.10(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
+        version: 0.3.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(@citric/ui@6.5.5(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-theme@1.1.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-translate@1.2.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@tanstack/react-query@5.59.20(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
       '@stack-spot/portal-theme':
         specifier: 1.1.0
         version: 1.1.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
       '@stack-spot/portal-translate':
         specifier: 1.2.2
         version: 1.2.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@tanstack/react-query':
+        specifier: ~5.59.15
+        version: 5.59.20(react@18.3.1)
       lodash:
         specifier: ^4.17.21
         version: 4.17.21
@@ -43,12 +46,6 @@ importers:
       react-dom:
         specifier: ^18.2.0
         version: 18.3.1(react@18.3.1)
-      react-gauge-chart:
-        specifier: ^0.5.1
-        version: 0.5.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      recharts:
-        specifier: ^2.12.7
-        version: 2.15.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       styled-components:
         specifier: 6.1.10
         version: 6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -130,19 +127,19 @@ importers:
         version: 5.3.3
       '@stack-spot/auth-react':
         specifier: 2.3.0
-        version: 2.3.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(@citric/ui@6.5.5(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/auth@5.3.3)(@stack-spot/portal-components@2.10.4(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(@citric/ui@6.5.5(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-theme@1.1.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-translate@1.2.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.17)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@stack-spot/portal-theme@1.1.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-translate@1.2.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
+        version: 2.3.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(@citric/ui@6.5.5(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/auth@5.3.3)(@stack-spot/portal-components@2.11.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(@citric/ui@6.5.5(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-theme@1.1.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-translate@1.2.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.17)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@stack-spot/portal-theme@1.1.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-translate@1.2.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
       '@stack-spot/citron-navigator':
         specifier: 1.7.0
         version: 1.7.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@stack-spot/portal-components':
-        specifier: 2.10.4
-        version: 2.10.4(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(@citric/ui@6.5.5(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-theme@1.1.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-translate@1.2.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.17)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        specifier: 2.11.0
+        version: 2.11.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(@citric/ui@6.5.5(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-theme@1.1.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-translate@1.2.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.17)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@stack-spot/portal-extension-backend':
         specifier: ^0.2.0
-        version: 0.2.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(@citric/ui@6.5.5(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/auth-react@2.3.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(@citric/ui@6.5.5(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/auth@5.3.3)(@stack-spot/portal-components@2.10.4(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(@citric/ui@6.5.5(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-theme@1.1.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-translate@1.2.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.17)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@stack-spot/portal-theme@1.1.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-translate@1.2.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/auth@5.3.3)(@stack-spot/citron-navigator@1.7.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@stack-spot/portal-layout@2.19.4(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(@citric/ui@6.5.5(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-components@2.10.4(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(@citric/ui@6.5.5(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-theme@1.1.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-translate@1.2.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.17)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@stack-spot/portal-theme@1.1.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-translate@1.2.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.17)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-network@0.66.0(@stack-spot/auth@5.3.3)(@stack-spot/opa@2.6.1(@stack-spot/auth@5.3.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@stack-spot/portal-translate@1.2.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@tanstack/react-query@5.62.10(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@stack-spot/portal-theme@1.1.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-translate@1.2.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
+        version: 0.2.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(@citric/ui@6.5.5(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/auth-react@2.3.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(@citric/ui@6.5.5(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/auth@5.3.3)(@stack-spot/portal-components@2.11.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(@citric/ui@6.5.5(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-theme@1.1.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-translate@1.2.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.17)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@stack-spot/portal-theme@1.1.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-translate@1.2.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/auth@5.3.3)(@stack-spot/citron-navigator@1.7.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@stack-spot/portal-layout@2.20.1(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(@citric/ui@6.5.5(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-components@2.11.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(@citric/ui@6.5.5(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-theme@1.1.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-translate@1.2.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.17)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@stack-spot/portal-theme@1.1.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-translate@1.2.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.17)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-network@0.66.0(@stack-spot/auth@5.3.3)(@stack-spot/opa@2.6.1(@stack-spot/auth@5.3.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@stack-spot/portal-translate@1.2.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@tanstack/react-query@5.62.10(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@stack-spot/portal-theme@1.1.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-translate@1.2.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
       '@stack-spot/portal-layout':
-        specifier: 2.19.4
-        version: 2.19.4(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(@citric/ui@6.5.5(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-components@2.10.4(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(@citric/ui@6.5.5(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-theme@1.1.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-translate@1.2.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.17)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@stack-spot/portal-theme@1.1.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-translate@1.2.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.17)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
+        specifier: 2.20.1
+        version: 2.20.1(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(@citric/ui@6.5.5(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-components@2.11.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(@citric/ui@6.5.5(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-theme@1.1.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-translate@1.2.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.17)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@stack-spot/portal-theme@1.1.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-translate@1.2.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.17)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
       '@stack-spot/portal-network':
         specifier: ^0.66.0
         version: 0.66.0(@stack-spot/auth@5.3.3)(@stack-spot/opa@2.6.1(@stack-spot/auth@5.3.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@stack-spot/portal-translate@1.2.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@tanstack/react-query@5.62.10(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -684,8 +681,8 @@ packages:
       react: '>=18.2.0'
       react-dom: '>=18.2.0'
 
-  '@stack-spot/portal-components@2.10.4':
-    resolution: {integrity: sha512-A+s3ZUrEOV12mpIYWG7tEuvX2g1SGkb9Zo3GfEPIhQfBbOhs3CbpA+r1OjvqLekNq7E71vJctCWtBrGdK06HUA==}
+  '@stack-spot/portal-components@2.11.0':
+    resolution: {integrity: sha512-OkR8u98HkcSBUCOpMc2PXxeRuZOktzTQVJGC6HmroBs6bGyfXUF1MdWht2og3VkKPkF9ngzh7jwR2ZxgmJqjwA==}
     peerDependencies:
       '@citric/core': ^6.0.0
       '@citric/icons': ^5.4.0 || ^6.0.0
@@ -733,15 +730,15 @@ packages:
       react-dom: '>=18.2.0'
       styled-components: '>=6.1.10'
 
-  '@stack-spot/portal-layout@2.19.4':
-    resolution: {integrity: sha512-BiQuvk46LE6vv/NnBf7KY9Jeqlkzvl1HZFw4h6cgoGFISyJKsUlKQ11b6xpUAq/yj8ePOKWisHrqhRovTFhOHA==}
+  '@stack-spot/portal-layout@2.20.1':
+    resolution: {integrity: sha512-nxDPo+8/uXgdwuWeKckz7eFdc+Nr2fBm5CgivMCB+fvI9abpspETDjUIaJLUOx1nScgpcViQj+SsAlbl/g6Cgw==}
     peerDependencies:
-      '@citric/core': ^6.0.0
+      '@citric/core': ^6.4.0
       '@citric/icons': ^5.9.0
-      '@citric/ui': ^6.1.1
-      '@stack-spot/portal-components': ^2.3.4
+      '@citric/ui': ^6.5.5
+      '@stack-spot/portal-components': ^2.11.0
       '@stack-spot/portal-theme': ^1.0.0
-      '@stack-spot/portal-translate': ^1.0.0
+      '@stack-spot/portal-translate': ^1.1.0
       react: ^18.2.0
       react-dom: ^18.2.0
       styled-components: ^6.1.10
@@ -770,8 +767,16 @@ packages:
       react: '>=18.2.0'
       react-dom: '>=18.2.0'
 
+  '@tanstack/query-core@5.59.20':
+    resolution: {integrity: sha512-e8vw0lf7KwfGe1if4uPFhvZRWULqHjFcz3K8AebtieXvnMOz5FSzlZe3mTLlPuUBcydCnBRqYs2YJ5ys68wwLg==}
+
   '@tanstack/query-core@5.62.9':
     resolution: {integrity: sha512-lwePd8hNYhyQ4nM/iRQ+Wz2cDtspGeZZHFZmCzHJ7mfKXt+9S301fULiY2IR2byJYY6Z03T427E5PoVfMexHjw==}
+
+  '@tanstack/react-query@5.59.20':
+    resolution: {integrity: sha512-Zly0egsK0tFdfSbh5/mapSa+Zfc3Et0Zkar7Wo5sQkFzWyB3p3uZWOHR2wrlAEEV2L953eLuDBtbgFvMYiLvUw==}
+    peerDependencies:
+      react: ^18 || ^19
 
   '@tanstack/react-query@5.62.10':
     resolution: {integrity: sha512-1e1WpHM5oGf27nWM/NWLY62/X9pbMBWa6ErWYmeuK0OqB9/g9UzA59ogiWbxCmS2wtAFQRhOdHhfSofrkhPl2g==}
@@ -789,33 +794,6 @@ packages:
 
   '@types/babel__traverse@7.20.6':
     resolution: {integrity: sha512-r1bzfrm0tomOI8g1SzvCaQHo6Lcv6zu0EA+W2kHrt8dyrHQxGzBBL4kdkzIS+jBMV+EYcMAEAqXqYaLJq5rOZg==}
-
-  '@types/d3-array@3.2.1':
-    resolution: {integrity: sha512-Y2Jn2idRrLzUfAKV2LyRImR+y4oa2AntrgID95SHJxuMUrkNXmanDSed71sRNZysveJVt1hLLemQZIady0FpEg==}
-
-  '@types/d3-color@3.1.3':
-    resolution: {integrity: sha512-iO90scth9WAbmgv7ogoq57O9YpKmFBbmoEoCHDB2xMBY0+/KVrqAaCDyCE16dUspeOvIxFFRI+0sEtqDqy2b4A==}
-
-  '@types/d3-ease@3.0.2':
-    resolution: {integrity: sha512-NcV1JjO5oDzoK26oMzbILE6HW7uVXOHLQvHshBUW4UMdZGfiY6v5BeQwh9a9tCzv+CeefZQHJt5SRgK154RtiA==}
-
-  '@types/d3-interpolate@3.0.4':
-    resolution: {integrity: sha512-mgLPETlrpVV1YRJIglr4Ez47g7Yxjl1lj7YKsiMCb27VJH9W8NVM6Bb9d8kkpG/uAQS5AmbA48q2IAolKKo1MA==}
-
-  '@types/d3-path@3.1.0':
-    resolution: {integrity: sha512-P2dlU/q51fkOc/Gfl3Ul9kicV7l+ra934qBFXCFhrZMOL6du1TM0pm1ThYvENukyOn5h9v+yMJ9Fn5JK4QozrQ==}
-
-  '@types/d3-scale@4.0.8':
-    resolution: {integrity: sha512-gkK1VVTr5iNiYJ7vWDI+yUFFlszhNMtVeneJ6lUTKPjprsvLLI9/tgEGiXJOnlINJA8FyA88gfnQsHbybVZrYQ==}
-
-  '@types/d3-shape@3.1.6':
-    resolution: {integrity: sha512-5KKk5aKGu2I+O6SONMYSNflgiP0WfZIQvVUMan50wHsLG1G94JlxEVnCpQARfTtzytuY0p/9PXXZb3I7giofIA==}
-
-  '@types/d3-time@3.0.4':
-    resolution: {integrity: sha512-yuzZug1nkAAaBlBBikKZTgzCeA+k1uy4ZFwWANOfKw5z5LRhV0gNA7gNkKm7HoK+HRN0wX3EkxGk0fpbWhmB7g==}
-
-  '@types/d3-timer@3.0.2':
-    resolution: {integrity: sha512-Ps3T8E8dZDam6fUyNiMkekK3XUsaUEik+idO9/YjPtfj2qruF8tFBXS7XhtE4iIXBLxhmLjP3SXpLhVf21I9Lw==}
 
   '@types/debug@4.1.12':
     resolution: {integrity: sha512-vIChWdVG3LG1SMxEvI/AK+FWJthlrqlTu7fbrlywTkkaONwk/UAGaULXRlf8vkzFBLVm0zkMdCquhL5aOjhXPQ==}
@@ -1105,10 +1083,6 @@ packages:
   commander@2.20.3:
     resolution: {integrity: sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ==}
 
-  commander@7.2.0:
-    resolution: {integrity: sha512-QrWXB+ZQSVPmIWIhtEO9H+gwHaMGYiF5ChvoJ+K9ZGHG/sVsa6yiesAD1GC/x46sET00Xlwo1u49RVVVzvcSkw==}
-    engines: {node: '>= 10'}
-
   commandpost@1.4.0:
     resolution: {integrity: sha512-aE2Y4MTFJ870NuB/+2z1cXBhSBBzRydVVjzhFC4gtenEhpnj15yu0qptWGJsO9YGrcPZ3ezX8AWb1VA391MKpQ==}
 
@@ -1134,133 +1108,6 @@ packages:
 
   csstype@3.1.3:
     resolution: {integrity: sha512-M1uQkMl8rQK/szD0LNhtqxIPLpimGm8sOBwU7lLnCpSbTyY3yeU1Vc7l4KT5zT4s/yOxHH5O7tIuuLOCnLADRw==}
-
-  d3-array@3.2.4:
-    resolution: {integrity: sha512-tdQAmyA18i4J7wprpYq8ClcxZy3SC31QMeByyCFyRt7BVHdREQZ5lpzoe5mFEYZUWe+oq8HBvk9JjpibyEV4Jg==}
-    engines: {node: '>=12'}
-
-  d3-axis@3.0.0:
-    resolution: {integrity: sha512-IH5tgjV4jE/GhHkRV0HiVYPDtvfjHQlQfJHs0usq7M30XcSBvOotpmH1IgkcXsO/5gEQZD43B//fc7SRT5S+xw==}
-    engines: {node: '>=12'}
-
-  d3-brush@3.0.0:
-    resolution: {integrity: sha512-ALnjWlVYkXsVIGlOsuWH1+3udkYFI48Ljihfnh8FZPF2QS9o+PzGLBslO0PjzVoHLZ2KCVgAM8NVkXPJB2aNnQ==}
-    engines: {node: '>=12'}
-
-  d3-chord@3.0.1:
-    resolution: {integrity: sha512-VE5S6TNa+j8msksl7HwjxMHDM2yNK3XCkusIlpX5kwauBfXuyLAtNg9jCp/iHH61tgI4sb6R/EIMWCqEIdjT/g==}
-    engines: {node: '>=12'}
-
-  d3-color@3.1.0:
-    resolution: {integrity: sha512-zg/chbXyeBtMQ1LbD/WSoW2DpC3I0mpmPdW+ynRTj/x2DAWYrIY7qeZIHidozwV24m4iavr15lNwIwLxRmOxhA==}
-    engines: {node: '>=12'}
-
-  d3-contour@4.0.2:
-    resolution: {integrity: sha512-4EzFTRIikzs47RGmdxbeUvLWtGedDUNkTcmzoeyg4sP/dvCexO47AaQL7VKy/gul85TOxw+IBgA8US2xwbToNA==}
-    engines: {node: '>=12'}
-
-  d3-delaunay@6.0.4:
-    resolution: {integrity: sha512-mdjtIZ1XLAM8bm/hx3WwjfHt6Sggek7qH043O8KEjDXN40xi3vx/6pYSVTwLjEgiXQTbvaouWKynLBiUZ6SK6A==}
-    engines: {node: '>=12'}
-
-  d3-dispatch@3.0.1:
-    resolution: {integrity: sha512-rzUyPU/S7rwUflMyLc1ETDeBj0NRuHKKAcvukozwhshr6g6c5d8zh4c2gQjY2bZ0dXeGLWc1PF174P2tVvKhfg==}
-    engines: {node: '>=12'}
-
-  d3-drag@3.0.0:
-    resolution: {integrity: sha512-pWbUJLdETVA8lQNJecMxoXfH6x+mO2UQo8rSmZ+QqxcbyA3hfeprFgIT//HW2nlHChWeIIMwS2Fq+gEARkhTkg==}
-    engines: {node: '>=12'}
-
-  d3-dsv@3.0.1:
-    resolution: {integrity: sha512-UG6OvdI5afDIFP9w4G0mNq50dSOsXHJaRE8arAS5o9ApWnIElp8GZw1Dun8vP8OyHOZ/QJUKUJwxiiCCnUwm+Q==}
-    engines: {node: '>=12'}
-    hasBin: true
-
-  d3-ease@3.0.1:
-    resolution: {integrity: sha512-wR/XK3D3XcLIZwpbvQwQ5fK+8Ykds1ip7A2Txe0yxncXSdq1L9skcG7blcedkOX+ZcgxGAmLX1FrRGbADwzi0w==}
-    engines: {node: '>=12'}
-
-  d3-fetch@3.0.1:
-    resolution: {integrity: sha512-kpkQIM20n3oLVBKGg6oHrUchHM3xODkTzjMoj7aWQFq5QEM+R6E4WkzT5+tojDY7yjez8KgCBRoj4aEr99Fdqw==}
-    engines: {node: '>=12'}
-
-  d3-force@3.0.0:
-    resolution: {integrity: sha512-zxV/SsA+U4yte8051P4ECydjD/S+qeYtnaIyAs9tgHCqfguma/aAQDjo85A9Z6EKhBirHRJHXIgJUlffT4wdLg==}
-    engines: {node: '>=12'}
-
-  d3-format@3.1.0:
-    resolution: {integrity: sha512-YyUI6AEuY/Wpt8KWLgZHsIU86atmikuoOmCfommt0LYHiQSPjvX2AcFc38PX0CBpr2RCyZhjex+NS/LPOv6YqA==}
-    engines: {node: '>=12'}
-
-  d3-geo@3.1.1:
-    resolution: {integrity: sha512-637ln3gXKXOwhalDzinUgY83KzNWZRKbYubaG+fGVuc/dxO64RRljtCTnf5ecMyE1RIdtqpkVcq0IbtU2S8j2Q==}
-    engines: {node: '>=12'}
-
-  d3-hierarchy@3.1.2:
-    resolution: {integrity: sha512-FX/9frcub54beBdugHjDCdikxThEqjnR93Qt7PvQTOHxyiNCAlvMrHhclk3cD5VeAaq9fxmfRp+CnWw9rEMBuA==}
-    engines: {node: '>=12'}
-
-  d3-interpolate@3.0.1:
-    resolution: {integrity: sha512-3bYs1rOD33uo8aqJfKP3JWPAibgw8Zm2+L9vBKEHJ2Rg+viTR7o5Mmv5mZcieN+FRYaAOWX5SJATX6k1PWz72g==}
-    engines: {node: '>=12'}
-
-  d3-path@3.1.0:
-    resolution: {integrity: sha512-p3KP5HCf/bvjBSSKuXid6Zqijx7wIfNW+J/maPs+iwR35at5JCbLUT0LzF1cnjbCHWhqzQTIN2Jpe8pRebIEFQ==}
-    engines: {node: '>=12'}
-
-  d3-polygon@3.0.1:
-    resolution: {integrity: sha512-3vbA7vXYwfe1SYhED++fPUQlWSYTTGmFmQiany/gdbiWgU/iEyQzyymwL9SkJjFFuCS4902BSzewVGsHHmHtXg==}
-    engines: {node: '>=12'}
-
-  d3-quadtree@3.0.1:
-    resolution: {integrity: sha512-04xDrxQTDTCFwP5H6hRhsRcb9xxv2RzkcsygFzmkSIOJy3PeRJP7sNk3VRIbKXcog561P9oU0/rVH6vDROAgUw==}
-    engines: {node: '>=12'}
-
-  d3-random@3.0.1:
-    resolution: {integrity: sha512-FXMe9GfxTxqd5D6jFsQ+DJ8BJS4E/fT5mqqdjovykEB2oFbTMDVdg1MGFxfQW+FBOGoB++k8swBrgwSHT1cUXQ==}
-    engines: {node: '>=12'}
-
-  d3-scale-chromatic@3.1.0:
-    resolution: {integrity: sha512-A3s5PWiZ9YCXFye1o246KoscMWqf8BsD9eRiJ3He7C9OBaxKhAd5TFCdEx/7VbKtxxTsu//1mMJFrEt572cEyQ==}
-    engines: {node: '>=12'}
-
-  d3-scale@4.0.2:
-    resolution: {integrity: sha512-GZW464g1SH7ag3Y7hXjf8RoUuAFIqklOAq3MRl4OaWabTFJY9PN/E1YklhXLh+OQ3fM9yS2nOkCoS+WLZ6kvxQ==}
-    engines: {node: '>=12'}
-
-  d3-selection@3.0.0:
-    resolution: {integrity: sha512-fmTRWbNMmsmWq6xJV8D19U/gw/bwrHfNXxrIN+HfZgnzqTHp9jOmKMhsTUjXOJnZOdZY9Q28y4yebKzqDKlxlQ==}
-    engines: {node: '>=12'}
-
-  d3-shape@3.2.0:
-    resolution: {integrity: sha512-SaLBuwGm3MOViRq2ABk3eLoxwZELpH6zhl3FbAoJ7Vm1gofKx6El1Ib5z23NUEhF9AsGl7y+dzLe5Cw2AArGTA==}
-    engines: {node: '>=12'}
-
-  d3-time-format@4.1.0:
-    resolution: {integrity: sha512-dJxPBlzC7NugB2PDLwo9Q8JiTR3M3e4/XANkreKSUxF8vvXKqm1Yfq4Q5dl8budlunRVlUUaDUgFt7eA8D6NLg==}
-    engines: {node: '>=12'}
-
-  d3-time@3.1.0:
-    resolution: {integrity: sha512-VqKjzBLejbSMT4IgbmVgDjpkYrNWUYJnbCGo874u7MMKIWsILRX+OpX/gTk8MqjpT1A/c6HY2dCA77ZN0lkQ2Q==}
-    engines: {node: '>=12'}
-
-  d3-timer@3.0.1:
-    resolution: {integrity: sha512-ndfJ/JxxMd3nw31uyKoY2naivF+r29V+Lc0svZxe1JvvIRmi8hUsrMvdOwgS1o6uBHmiz91geQ0ylPP0aj1VUA==}
-    engines: {node: '>=12'}
-
-  d3-transition@3.0.1:
-    resolution: {integrity: sha512-ApKvfjsSR6tg06xrL434C0WydLr7JewBB3V+/39RMHsaXTOG0zmt/OAXeng5M5LBm0ojmxJrpomQVZ1aPvBL4w==}
-    engines: {node: '>=12'}
-    peerDependencies:
-      d3-selection: 2 - 3
-
-  d3-zoom@3.0.0:
-    resolution: {integrity: sha512-b8AmV3kfQaqWAuacbPuNbL6vahnOJflOhexLzMMNLga62+/nh0JzvJ0aO/5a5MVgUFGS7Hu1P9P03o3fJkDCyw==}
-    engines: {node: '>=12'}
-
-  d3@7.9.0:
-    resolution: {integrity: sha512-e1U46jVP+w7Iut8Jt8ri1YsPOvFpg46k+K8TpCb0P+zjCkjkPnV7WzfDJzMHy1LnA+wj5pLT1wjO901gLXeEhA==}
-    engines: {node: '>=12'}
 
   data-view-buffer@1.0.1:
     resolution: {integrity: sha512-0lht7OugA5x3iJLOWFhWK/5ehONdprk0ISXqVFn/NFrDu+cuc8iADFrGQz5BnRK7LLU3JmkbXSxaqX+/mXYtUA==}
@@ -1298,9 +1145,6 @@ packages:
       supports-color:
         optional: true
 
-  decimal.js-light@2.5.1:
-    resolution: {integrity: sha512-qIMFpTMZmny+MMIitAB6D7iVPEorVw6YQRWkvarTkT4tBeSLLiHzcwj6q0MmYSFCiVpiqPJTJEYIrpcPzVEIvg==}
-
   decode-named-character-reference@1.0.2:
     resolution: {integrity: sha512-O8x12RzrUF8xyVcY0KJowWsmaJxQbmy0/EtnNtHRpsOcT7dFk5W598coHqBVpmWo1oQQfsCqfCmkZN5DJrZVdg==}
 
@@ -1314,9 +1158,6 @@ packages:
   define-properties@1.2.1:
     resolution: {integrity: sha512-8QmQKqEASLd5nx0U1B1okLElbUuuttJ/AnYmRXbbbGDWh6uS208EjD4Xqq/I9wK7u0v6O08XhTWnt5XtEbR6Dg==}
     engines: {node: '>= 0.4'}
-
-  delaunator@5.0.1:
-    resolution: {integrity: sha512-8nvh+XBe96aCESrGOqMp/84b13H9cdKbG5P2ejQCh4d4sK9RL4371qou9drQjMhvnPmhWl5hnmqbEE0fXr9Xnw==}
 
   dequal@2.0.3:
     resolution: {integrity: sha512-0je+qPKHEMohvfRTCEo3CrPG6cAzAYgmzKyxRiYSSDkS6eGJdyVJm7WaYA5ECaAD9wLB2T4EEeymA5aFVcYXCA==}
@@ -1339,9 +1180,6 @@ packages:
   doctrine@3.0.0:
     resolution: {integrity: sha512-yS+Q5i3hBf7GBkd4KG8a7eBNNWNGLTaEwwYWUijIYM7zrlYDM0BFXHjjPWlWZ1Rg7UaddZeIDmi9jF3HmqiQ2w==}
     engines: {node: '>=6.0.0'}
-
-  dom-helpers@5.2.1:
-    resolution: {integrity: sha512-nRCa7CK3VTrM2NmGkIy4cbK7IZlgBE/PYMn55rrXefr5xXDP0LdtfPnblFDoVdcAfslJ7or6iqAUnx0CCGIWQA==}
 
   dunder-proto@1.0.1:
     resolution: {integrity: sha512-KIN/nDJBQRcXw0MLVhZE9iQHmG68qAVIBg9CqmUYjmQIhgij9U5MFvrqkUL5FbtyyzZuOeOt0zdeRe4UY7ct+A==}
@@ -1514,18 +1352,11 @@ packages:
     resolution: {integrity: sha512-kVscqXk4OCp68SZ0dkgEKVi6/8ij300KBWTJq32P/dYeWTSwK41WyTxalN1eRmA5Z9UU/LX9D7FWSmV9SAYx6g==}
     engines: {node: '>=0.10.0'}
 
-  eventemitter3@4.0.7:
-    resolution: {integrity: sha512-8guHBZCwKnFhYdHr2ysuRWErTwhoN2X8XELRlrRwpmfeY2jjuUN4taQMsULKUVo1K4DvZl+0pgfyoysHxvmvEw==}
-
   extend@3.0.2:
     resolution: {integrity: sha512-fjquC59cD7CyW6urNXK0FBufkZcoiGG80wTuPujX590cB5Ttln20E2UB4S/WARVqhXffZl2LNgS+gQdPIIim/g==}
 
   fast-deep-equal@3.1.3:
     resolution: {integrity: sha512-f3qQ9oQy9j2AhBe/H9VC91wLmKBCCU/gDOnKNAYG5hswO7BLKj09Hc5HYNz9cGI++xlpDCIgDaitVs03ATR84Q==}
-
-  fast-equals@5.0.1:
-    resolution: {integrity: sha512-WF1Wi8PwwSY7/6Kx0vKXtw8RwuSGoM1bvDaJbu7MxDlR1vovZjIAKrnzyrThgAjm6JDTu0fVgWXDlMGspodfoQ==}
-    engines: {node: '>=6.0.0'}
 
   fast-glob@3.3.2:
     resolution: {integrity: sha512-oX2ruAFQwf/Orj8m737Y5adxDQO0LAB7/S5MnxCdTNDd4p6BsyIVsv9JQsATbTSq8KHRpLwIHbVlUNatxd+1Ow==}
@@ -1717,10 +1548,6 @@ packages:
   html-void-elements@3.0.0:
     resolution: {integrity: sha512-bEqo66MRXsUGxWHV5IP0PUiAWwoEjba4VCzg0LjFJBpchPaTfyfCKTG6bc5F8ucKec3q5y6qOdGyYTSBEvhCrg==}
 
-  iconv-lite@0.6.3:
-    resolution: {integrity: sha512-4fCk79wshMdzMp2rH06qWrJE4iolqLhCUH+OiuIgU++RB0+94NlDL81atO7GX55uUKueo0txHNtvEyI6D7WdMw==}
-    engines: {node: '>=0.10.0'}
-
   ignore@5.3.2:
     resolution: {integrity: sha512-hsBTNUqQTDwkWtcdYI2i06Y/nUBEsNEDJKjWdigLvegy8kDuJAS8uRlpkkcQpyEXL0Z/pjDy5HBmMjRCJ2gq+g==}
     engines: {node: '>= 4'}
@@ -1746,10 +1573,6 @@ packages:
   internal-slot@1.1.0:
     resolution: {integrity: sha512-4gd7VpWNQNB4UKKCFFVcp1AVv+FMOgs9NKzjHKusc8jTMhd5eL1NqQqOpE0KzMds804/yHlglp3uxgluOqAPLw==}
     engines: {node: '>= 0.4'}
-
-  internmap@2.0.3:
-    resolution: {integrity: sha512-5Hh7Y1wQbvY5ooGgPbDaL5iYLAPzMTUrjMulskHLH6wnv/A+1q5rgEaiuqEjB+oxGXIVZs1FF+R/KPN3ZSQYYg==}
-    engines: {node: '>=12'}
 
   is-alphabetical@1.0.4:
     resolution: {integrity: sha512-DwzsA04LQ10FHTZuL0/grVDk4rFoVH1pjAToYwBrHSxcrBIGQuXrQMtD5U1b0U2XVgKZCTLLP8u2Qxqhy3l2Vg==}
@@ -2307,12 +2130,6 @@ packages:
       '@types/react':
         optional: true
 
-  react-gauge-chart@0.5.1:
-    resolution: {integrity: sha512-Kd0pLIfHWOVEWJCz+xAxFfrKzCdOkLHNKR13V+O3h06ocyGT7fWjz2oevMXsPt3bVn1Du2od7gPrjUhqXKdASg==}
-    peerDependencies:
-      react: ^16.8.2 || ^17.0 || ^18.x
-      react-dom: ^16.8.2 || ^17.0 || ^18.x
-
   react-infinite-scroll-component@6.1.0:
     resolution: {integrity: sha512-SQu5nCqy8DxQWpnUVLx7V7b7LcA37aM7tvoWjTLZp1dk6EJibM5/4EJKzOnl07/BsM1Y40sKLuqjCwwH/xV0TQ==}
     peerDependencies:
@@ -2334,12 +2151,6 @@ packages:
     resolution: {integrity: sha512-jCvmsr+1IUSMUyzOkRcvnVbX3ZYC6g9TDrDbFuFmRDq7PD4yaGbLKNQL6k2jnArV8hjYxh7hVhAZB6s9HDGpZA==}
     engines: {node: '>=0.10.0'}
 
-  react-smooth@4.0.4:
-    resolution: {integrity: sha512-gnGKTpYwqL0Iii09gHobNolvX4Kiq4PKx6eWBCYYix+8cdw+cGo3do906l1NBPKkSWx1DghC1dlWG9L2uGd61Q==}
-    peerDependencies:
-      react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
-      react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
-
   react-syntax-highlighter@15.6.1:
     resolution: {integrity: sha512-OqJ2/vL7lEeV5zTJyG7kmARppUjiB9h9udl4qHQjjgEos66z00Ia0OckwYfRxCSFrW8RJIBnsBwQsHZbVPspqg==}
     peerDependencies:
@@ -2350,12 +2161,6 @@ packages:
     peerDependencies:
       react: '>=18'
       react-dom: '>=18'
-
-  react-transition-group@4.4.5:
-    resolution: {integrity: sha512-pZcd1MCJoiKiBR2NRxeCRg13uCXbydPnmB4EOeRrY7480qNWO8IIgQG6zlDkm6uRMsURXPuKq0GWtiM59a5Q6g==}
-    peerDependencies:
-      react: '>=16.6.0'
-      react-dom: '>=16.6.0'
 
   react@18.3.1:
     resolution: {integrity: sha512-wS+hAgJShR0KhEvPJArfuPVN1+Hz1t0Y6n5jLrGQbkb4urgPE/0Rve+1kMB1v/oWgHgm4WIcV+i7F2pTVj+2iQ==}
@@ -2368,16 +2173,6 @@ packages:
       react-dom: ^16.3.0 || ^17.0.0-0 || ^18.0.0-0
       react-is: ^16.8 || ^17.0.0-0 || ^18.0.0-0
       styled-components: ^4.0.0 || ^5.0.0
-
-  recharts-scale@0.4.5:
-    resolution: {integrity: sha512-kivNFO+0OcUNu7jQquLXAxz1FIwZj8nrj+YkOKc5694NbjCvcT6aSZiIzNzd2Kul4o4rTto8QVR9lMNtxD4G1w==}
-
-  recharts@2.15.0:
-    resolution: {integrity: sha512-cIvMxDfpAmqAmVgc4yb7pgm/O1tmmkl/CjrvXuW+62/+7jj/iF9Ykm+hb/UJt42TREHMyd3gb+pkgoa2MxgDIw==}
-    engines: {node: '>=14'}
-    peerDependencies:
-      react: ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
-      react-dom: ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
 
   reflect.getprototypeof@1.0.9:
     resolution: {integrity: sha512-r0Ay04Snci87djAsI4U+WNRcSw5S4pOH7qFjd/veA5gC7TbqESR3tcj28ia95L/fYUDw11JKP7uqUKUAfVvV5Q==}
@@ -2436,9 +2231,6 @@ packages:
     deprecated: Rimraf versions prior to v4 are no longer supported
     hasBin: true
 
-  robust-predicates@3.0.2:
-    resolution: {integrity: sha512-IXgzBWvWQwE6PrDI05OvmXUIruQTcoMDzRsOd5CDvHCVLcLHMTSYvOK5Cm46kWqlV3yAbuSpBZdJ5oP5OUoStg==}
-
   rollup@4.28.1:
     resolution: {integrity: sha512-61fXYl/qNVinKmGSTHAZ6Yy8I3YIJC/r2m9feHo6SwVAVcLT5MPwOUFe7EuURA/4m0NR8lXG4BBXuo/IZEsjMg==}
     engines: {node: '>=18.0.0', npm: '>=8.0.0'}
@@ -2447,9 +2239,6 @@ packages:
   run-parallel@1.2.0:
     resolution: {integrity: sha512-5l4VyZR86LZ/lDxZTR6jqL8AFE2S0IFLMP26AbjsLVADxHdhB/c0GUsH+y39UfCi3dzz8OlQuPmnaJOMoDHQBA==}
 
-  rw@1.3.3:
-    resolution: {integrity: sha512-PdhdWy89SiZogBLaw42zdeqtRJ//zFd2PgQavcICDUgJT5oW10QCRKbJ6bg4r0/UY2M6BWd5tkxuGFRvCkgfHQ==}
-
   safe-array-concat@1.1.3:
     resolution: {integrity: sha512-AURm5f0jYEOydBj7VQlVvDrjeFgthDdEF5H1dP+6mNpoXOMo1quQqJ4wvJDyRZ9+pO3kGWoOdmV08cSv2aJV6Q==}
     engines: {node: '>=0.4'}
@@ -2457,9 +2246,6 @@ packages:
   safe-regex-test@1.1.0:
     resolution: {integrity: sha512-x/+Cz4YrimQxQccJf5mKEbIa1NzeCRNI5Ecl/ekmlYaampdNLPalVyIcCZNNH3MvmqBugV5TMYZXv0ljslUlaw==}
     engines: {node: '>= 0.4'}
-
-  safer-buffer@2.1.2:
-    resolution: {integrity: sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==}
 
   scheduler@0.23.2:
     resolution: {integrity: sha512-UOShsPwz7NrMUqhR6t0hWjFduvOzbtv7toDH1/hIrfRNIDBnnBWd0CwJTGvTpngVlmwGCdP9/Zl/tVrDqcuYzQ==}
@@ -2604,9 +2390,6 @@ packages:
     resolution: {integrity: sha512-H7oLPV0P7+jgvrk+6mwwwBDmxTaxnu9HMXmloNLXwnNO0ZxZ31Orah2n8lU1eMPvsaowP2CX+USCgyovXfdOFQ==}
     engines: {node: '>=8'}
 
-  tiny-invariant@1.3.3:
-    resolution: {integrity: sha512-+FbBPE1o9QAYvviau/qC5SE3caw21q3xkvWKBtja5vgqOWIHHJ3ioaq1VPfn/Szqctz2bU/oYeKd9/z5BL+PVg==}
-
   to-regex-range@5.0.1:
     resolution: {integrity: sha512-65P7iz6X5yEr1cwcgvQxbbIw7Uk3gOy5dIdtZ4rDveLqhrdJP+Li/Hx6tyK0NEb+2GCyneCMJiGqrADCSNk8sQ==}
     engines: {node: '>=8.0'}
@@ -2747,9 +2530,6 @@ packages:
 
   vfile@6.0.3:
     resolution: {integrity: sha512-KzIbH/9tXat2u30jf+smMwFCsno4wHVdNmzFyL+T/L3UGqqk6JKfVqOFOZEpZSHADH1k40ab6NUIXZq422ov3Q==}
-
-  victory-vendor@36.9.2:
-    resolution: {integrity: sha512-PnpQQMuxlwYdocC8fIJqVXvkeViHYzotI+NJrCuav0ZYFoq912ZHBk3mCeuj+5/VpodOjPe1z0Fk2ihgzlXqjQ==}
 
   vite-tsconfig-paths@5.1.4:
     resolution: {integrity: sha512-cYj0LRuLV2c2sMqhqhGpaO3LretdtMn/BVX4cPLanIZuwwrkVl+lK84E/miEXkCHWXuq65rhNN4rXsBcOB3S4w==}
@@ -3215,13 +2995,13 @@ snapshots:
 
   '@rtsao/scc@1.1.0': {}
 
-  ? '@stack-spot/auth-react@2.3.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(@citric/ui@6.5.5(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/auth@5.3.3)(@stack-spot/portal-components@2.10.4(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(@citric/ui@6.5.5(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-theme@1.1.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-translate@1.2.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.17)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@stack-spot/portal-theme@1.1.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-translate@1.2.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1))'
+  ? '@stack-spot/auth-react@2.3.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(@citric/ui@6.5.5(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/auth@5.3.3)(@stack-spot/portal-components@2.11.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(@citric/ui@6.5.5(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-theme@1.1.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-translate@1.2.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.17)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@stack-spot/portal-theme@1.1.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-translate@1.2.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1))'
   : dependencies:
       '@citric/core': 6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
       '@citric/icons': 5.9.0(react@18.3.1)
       '@citric/ui': 6.5.5(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
       '@stack-spot/auth': 5.3.3
-      '@stack-spot/portal-components': 2.10.4(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(@citric/ui@6.5.5(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-theme@1.1.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-translate@1.2.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.17)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@stack-spot/portal-components': 2.11.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(@citric/ui@6.5.5(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-theme@1.1.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-translate@1.2.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.17)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@stack-spot/portal-theme': 1.1.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
       '@stack-spot/portal-translate': 1.2.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react: 18.3.1
@@ -3253,7 +3033,7 @@ snapshots:
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
 
-  '@stack-spot/portal-components@2.10.4(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(@citric/ui@6.5.5(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-theme@1.1.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-translate@1.2.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.17)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@stack-spot/portal-components@2.11.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(@citric/ui@6.5.5(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-theme@1.1.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-translate@1.2.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.17)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
       '@citric/core': 6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
       '@citric/icons': 5.9.0(react@18.3.1)
@@ -3274,13 +3054,13 @@ snapshots:
       - '@types/react'
       - supports-color
 
-  ? '@stack-spot/portal-extension-backend@0.2.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(@citric/ui@6.5.5(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/auth-react@2.3.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(@citric/ui@6.5.5(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/auth@5.3.3)(@stack-spot/portal-components@2.10.4(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(@citric/ui@6.5.5(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-theme@1.1.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-translate@1.2.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.17)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@stack-spot/portal-theme@1.1.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-translate@1.2.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/auth@5.3.3)(@stack-spot/citron-navigator@1.7.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@stack-spot/portal-layout@2.19.4(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(@citric/ui@6.5.5(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-components@2.10.4(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(@citric/ui@6.5.5(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-theme@1.1.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-translate@1.2.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.17)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@stack-spot/portal-theme@1.1.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-translate@1.2.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.17)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-network@0.66.0(@stack-spot/auth@5.3.3)(@stack-spot/opa@2.6.1(@stack-spot/auth@5.3.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@stack-spot/portal-translate@1.2.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@tanstack/react-query@5.62.10(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@stack-spot/portal-theme@1.1.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-translate@1.2.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1))'
+  ? '@stack-spot/portal-extension-backend@0.2.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(@citric/ui@6.5.5(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/auth-react@2.3.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(@citric/ui@6.5.5(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/auth@5.3.3)(@stack-spot/portal-components@2.11.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(@citric/ui@6.5.5(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-theme@1.1.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-translate@1.2.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.17)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@stack-spot/portal-theme@1.1.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-translate@1.2.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/auth@5.3.3)(@stack-spot/citron-navigator@1.7.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@stack-spot/portal-layout@2.20.1(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(@citric/ui@6.5.5(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-components@2.11.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(@citric/ui@6.5.5(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-theme@1.1.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-translate@1.2.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.17)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@stack-spot/portal-theme@1.1.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-translate@1.2.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.17)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-network@0.66.0(@stack-spot/auth@5.3.3)(@stack-spot/opa@2.6.1(@stack-spot/auth@5.3.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@stack-spot/portal-translate@1.2.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@tanstack/react-query@5.62.10(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@stack-spot/portal-theme@1.1.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-translate@1.2.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1))'
   : dependencies:
       '@stack-spot/auth': 5.3.3
-      '@stack-spot/auth-react': 2.3.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(@citric/ui@6.5.5(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/auth@5.3.3)(@stack-spot/portal-components@2.10.4(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(@citric/ui@6.5.5(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-theme@1.1.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-translate@1.2.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.17)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@stack-spot/portal-theme@1.1.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-translate@1.2.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
+      '@stack-spot/auth-react': 2.3.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(@citric/ui@6.5.5(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/auth@5.3.3)(@stack-spot/portal-components@2.11.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(@citric/ui@6.5.5(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-theme@1.1.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-translate@1.2.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.17)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@stack-spot/portal-theme@1.1.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-translate@1.2.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
       '@stack-spot/citron-navigator': 1.7.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@stack-spot/portal-extension-commons': 0.3.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(@citric/ui@6.5.5(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-theme@1.1.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-translate@1.2.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
-      '@stack-spot/portal-layout': 2.19.4(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(@citric/ui@6.5.5(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-components@2.10.4(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(@citric/ui@6.5.5(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-theme@1.1.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-translate@1.2.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.17)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@stack-spot/portal-theme@1.1.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-translate@1.2.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.17)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
+      '@stack-spot/portal-layout': 2.20.1(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(@citric/ui@6.5.5(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-components@2.11.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(@citric/ui@6.5.5(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-theme@1.1.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-translate@1.2.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.17)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@stack-spot/portal-theme@1.1.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-translate@1.2.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.17)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
       '@stack-spot/portal-network': 0.66.0(@stack-spot/auth@5.3.3)(@stack-spot/opa@2.6.1(@stack-spot/auth@5.3.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@stack-spot/portal-translate@1.2.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@tanstack/react-query@5.62.10(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@stack-spot/portal-theme': 1.1.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
       '@stack-spot/portal-translate': 1.2.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -3303,7 +3083,7 @@ snapshots:
       react-dom: 18.3.1(react@18.3.1)
       styled-components: 6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
 
-  '@stack-spot/portal-extension@0.3.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(@citric/ui@6.5.5(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-theme@1.1.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-translate@1.2.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@tanstack/react-query@5.62.10(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1))':
+  '@stack-spot/portal-extension@0.3.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(@citric/ui@6.5.5(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-theme@1.1.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-translate@1.2.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@tanstack/react-query@5.59.20(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1))':
     dependencies:
       '@citric/core': 6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
       '@citric/icons': 5.9.0(react@18.3.1)
@@ -3311,17 +3091,17 @@ snapshots:
       '@stack-spot/portal-extension-commons': 0.3.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(@citric/ui@6.5.5(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-theme@1.1.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-translate@1.2.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
       '@stack-spot/portal-theme': 1.1.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
       '@stack-spot/portal-translate': 1.2.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@tanstack/react-query': 5.62.10(react@18.3.1)
+      '@tanstack/react-query': 5.59.20(react@18.3.1)
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
       styled-components: 6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
 
-  ? '@stack-spot/portal-layout@2.19.4(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(@citric/ui@6.5.5(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-components@2.10.4(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(@citric/ui@6.5.5(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-theme@1.1.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-translate@1.2.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.17)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@stack-spot/portal-theme@1.1.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-translate@1.2.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.17)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1))'
+  ? '@stack-spot/portal-layout@2.20.1(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(@citric/ui@6.5.5(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-components@2.11.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(@citric/ui@6.5.5(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-theme@1.1.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-translate@1.2.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.17)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@stack-spot/portal-theme@1.1.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-translate@1.2.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.17)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1))'
   : dependencies:
       '@citric/core': 6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
       '@citric/icons': 5.9.0(react@18.3.1)
       '@citric/ui': 6.5.5(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
-      '@stack-spot/portal-components': 2.10.4(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(@citric/ui@6.5.5(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-theme@1.1.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-translate@1.2.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.17)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@stack-spot/portal-components': 2.11.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(@citric/ui@6.5.5(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-theme@1.1.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-translate@1.2.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.17)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@stack-spot/portal-theme': 1.1.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
       '@stack-spot/portal-translate': 1.2.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react: 18.3.1
@@ -3357,7 +3137,14 @@ snapshots:
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
 
+  '@tanstack/query-core@5.59.20': {}
+
   '@tanstack/query-core@5.62.9': {}
+
+  '@tanstack/react-query@5.59.20(react@18.3.1)':
+    dependencies:
+      '@tanstack/query-core': 5.59.20
+      react: 18.3.1
 
   '@tanstack/react-query@5.62.10(react@18.3.1)':
     dependencies:
@@ -3384,30 +3171,6 @@ snapshots:
   '@types/babel__traverse@7.20.6':
     dependencies:
       '@babel/types': 7.26.3
-
-  '@types/d3-array@3.2.1': {}
-
-  '@types/d3-color@3.1.3': {}
-
-  '@types/d3-ease@3.0.2': {}
-
-  '@types/d3-interpolate@3.0.4':
-    dependencies:
-      '@types/d3-color': 3.1.3
-
-  '@types/d3-path@3.1.0': {}
-
-  '@types/d3-scale@4.0.8':
-    dependencies:
-      '@types/d3-time': 3.0.4
-
-  '@types/d3-shape@3.1.6':
-    dependencies:
-      '@types/d3-path': 3.1.0
-
-  '@types/d3-time@3.0.4': {}
-
-  '@types/d3-timer@3.0.2': {}
 
   '@types/debug@4.1.12':
     dependencies:
@@ -3746,8 +3509,6 @@ snapshots:
 
   commander@2.20.3: {}
 
-  commander@7.2.0: {}
-
   commandpost@1.4.0: {}
 
   concat-map@0.0.1: {}
@@ -3771,158 +3532,6 @@ snapshots:
       postcss-value-parser: 4.2.0
 
   csstype@3.1.3: {}
-
-  d3-array@3.2.4:
-    dependencies:
-      internmap: 2.0.3
-
-  d3-axis@3.0.0: {}
-
-  d3-brush@3.0.0:
-    dependencies:
-      d3-dispatch: 3.0.1
-      d3-drag: 3.0.0
-      d3-interpolate: 3.0.1
-      d3-selection: 3.0.0
-      d3-transition: 3.0.1(d3-selection@3.0.0)
-
-  d3-chord@3.0.1:
-    dependencies:
-      d3-path: 3.1.0
-
-  d3-color@3.1.0: {}
-
-  d3-contour@4.0.2:
-    dependencies:
-      d3-array: 3.2.4
-
-  d3-delaunay@6.0.4:
-    dependencies:
-      delaunator: 5.0.1
-
-  d3-dispatch@3.0.1: {}
-
-  d3-drag@3.0.0:
-    dependencies:
-      d3-dispatch: 3.0.1
-      d3-selection: 3.0.0
-
-  d3-dsv@3.0.1:
-    dependencies:
-      commander: 7.2.0
-      iconv-lite: 0.6.3
-      rw: 1.3.3
-
-  d3-ease@3.0.1: {}
-
-  d3-fetch@3.0.1:
-    dependencies:
-      d3-dsv: 3.0.1
-
-  d3-force@3.0.0:
-    dependencies:
-      d3-dispatch: 3.0.1
-      d3-quadtree: 3.0.1
-      d3-timer: 3.0.1
-
-  d3-format@3.1.0: {}
-
-  d3-geo@3.1.1:
-    dependencies:
-      d3-array: 3.2.4
-
-  d3-hierarchy@3.1.2: {}
-
-  d3-interpolate@3.0.1:
-    dependencies:
-      d3-color: 3.1.0
-
-  d3-path@3.1.0: {}
-
-  d3-polygon@3.0.1: {}
-
-  d3-quadtree@3.0.1: {}
-
-  d3-random@3.0.1: {}
-
-  d3-scale-chromatic@3.1.0:
-    dependencies:
-      d3-color: 3.1.0
-      d3-interpolate: 3.0.1
-
-  d3-scale@4.0.2:
-    dependencies:
-      d3-array: 3.2.4
-      d3-format: 3.1.0
-      d3-interpolate: 3.0.1
-      d3-time: 3.1.0
-      d3-time-format: 4.1.0
-
-  d3-selection@3.0.0: {}
-
-  d3-shape@3.2.0:
-    dependencies:
-      d3-path: 3.1.0
-
-  d3-time-format@4.1.0:
-    dependencies:
-      d3-time: 3.1.0
-
-  d3-time@3.1.0:
-    dependencies:
-      d3-array: 3.2.4
-
-  d3-timer@3.0.1: {}
-
-  d3-transition@3.0.1(d3-selection@3.0.0):
-    dependencies:
-      d3-color: 3.1.0
-      d3-dispatch: 3.0.1
-      d3-ease: 3.0.1
-      d3-interpolate: 3.0.1
-      d3-selection: 3.0.0
-      d3-timer: 3.0.1
-
-  d3-zoom@3.0.0:
-    dependencies:
-      d3-dispatch: 3.0.1
-      d3-drag: 3.0.0
-      d3-interpolate: 3.0.1
-      d3-selection: 3.0.0
-      d3-transition: 3.0.1(d3-selection@3.0.0)
-
-  d3@7.9.0:
-    dependencies:
-      d3-array: 3.2.4
-      d3-axis: 3.0.0
-      d3-brush: 3.0.0
-      d3-chord: 3.0.1
-      d3-color: 3.1.0
-      d3-contour: 4.0.2
-      d3-delaunay: 6.0.4
-      d3-dispatch: 3.0.1
-      d3-drag: 3.0.0
-      d3-dsv: 3.0.1
-      d3-ease: 3.0.1
-      d3-fetch: 3.0.1
-      d3-force: 3.0.0
-      d3-format: 3.1.0
-      d3-geo: 3.1.1
-      d3-hierarchy: 3.1.2
-      d3-interpolate: 3.0.1
-      d3-path: 3.1.0
-      d3-polygon: 3.0.1
-      d3-quadtree: 3.0.1
-      d3-random: 3.0.1
-      d3-scale: 4.0.2
-      d3-scale-chromatic: 3.1.0
-      d3-selection: 3.0.0
-      d3-shape: 3.2.0
-      d3-time: 3.1.0
-      d3-time-format: 4.1.0
-      d3-timer: 3.0.1
-      d3-transition: 3.0.1(d3-selection@3.0.0)
-      d3-zoom: 3.0.0
 
   data-view-buffer@1.0.1:
     dependencies:
@@ -3956,8 +3565,6 @@ snapshots:
     dependencies:
       ms: 2.1.3
 
-  decimal.js-light@2.5.1: {}
-
   decode-named-character-reference@1.0.2:
     dependencies:
       character-entities: 2.0.2
@@ -3975,10 +3582,6 @@ snapshots:
       define-data-property: 1.1.4
       has-property-descriptors: 1.0.2
       object-keys: 1.1.1
-
-  delaunator@5.0.1:
-    dependencies:
-      robust-predicates: 3.0.2
 
   dequal@2.0.3: {}
 
@@ -3999,11 +3602,6 @@ snapshots:
   doctrine@3.0.0:
     dependencies:
       esutils: 2.0.3
-
-  dom-helpers@5.2.1:
-    dependencies:
-      '@babel/runtime': 7.26.0
-      csstype: 3.1.3
 
   dunder-proto@1.0.1:
     dependencies:
@@ -4313,13 +3911,9 @@ snapshots:
 
   esutils@2.0.3: {}
 
-  eventemitter3@4.0.7: {}
-
   extend@3.0.2: {}
 
   fast-deep-equal@3.1.3: {}
-
-  fast-equals@5.0.1: {}
 
   fast-glob@3.3.2:
     dependencies:
@@ -4572,10 +4166,6 @@ snapshots:
 
   html-void-elements@3.0.0: {}
 
-  iconv-lite@0.6.3:
-    dependencies:
-      safer-buffer: 2.1.2
-
   ignore@5.3.2: {}
 
   import-fresh@3.3.0:
@@ -4599,8 +4189,6 @@ snapshots:
       es-errors: 1.3.0
       hasown: 2.0.2
       side-channel: 1.1.0
-
-  internmap@2.0.3: {}
 
   is-alphabetical@1.0.4: {}
 
@@ -5366,12 +4954,6 @@ snapshots:
     optionalDependencies:
       '@types/react': 18.3.17
 
-  react-gauge-chart@0.5.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
-    dependencies:
-      d3: 7.9.0
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-
   react-infinite-scroll-component@6.1.0(react@18.3.1):
     dependencies:
       react: 18.3.1
@@ -5400,14 +4982,6 @@ snapshots:
 
   react-refresh@0.14.2: {}
 
-  react-smooth@4.0.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
-    dependencies:
-      fast-equals: 5.0.1
-      prop-types: 15.8.1
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      react-transition-group: 4.4.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-
   react-syntax-highlighter@15.6.1(react@18.3.1):
     dependencies:
       '@babel/runtime': 7.26.0
@@ -5421,15 +4995,6 @@ snapshots:
   react-toastify@10.0.6(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
     dependencies:
       clsx: 2.1.1
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-
-  react-transition-group@4.4.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
-    dependencies:
-      '@babel/runtime': 7.26.0
-      dom-helpers: 5.2.1
-      loose-envify: 1.4.0
-      prop-types: 15.8.1
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
 
@@ -5453,23 +5018,6 @@ snapshots:
       styled-components: 6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
     transitivePeerDependencies:
       - '@types/react'
-
-  recharts-scale@0.4.5:
-    dependencies:
-      decimal.js-light: 2.5.1
-
-  recharts@2.15.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
-    dependencies:
-      clsx: 2.1.1
-      eventemitter3: 4.0.7
-      lodash: 4.17.21
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      react-is: 18.3.1
-      react-smooth: 4.0.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      recharts-scale: 0.4.5
-      tiny-invariant: 1.3.3
-      victory-vendor: 36.9.2
 
   reflect.getprototypeof@1.0.9:
     dependencies:
@@ -5565,8 +5113,6 @@ snapshots:
     dependencies:
       glob: 7.2.3
 
-  robust-predicates@3.0.2: {}
-
   rollup@4.28.1:
     dependencies:
       '@types/estree': 1.0.6
@@ -5596,8 +5142,6 @@ snapshots:
     dependencies:
       queue-microtask: 1.2.3
 
-  rw@1.3.3: {}
-
   safe-array-concat@1.1.3:
     dependencies:
       call-bind: 1.0.8
@@ -5611,8 +5155,6 @@ snapshots:
       call-bound: 1.0.3
       es-errors: 1.3.0
       is-regex: 1.2.1
-
-  safer-buffer@2.1.2: {}
 
   scheduler@0.23.2:
     dependencies:
@@ -5784,8 +5326,6 @@ snapshots:
 
   throttle-debounce@2.3.0: {}
 
-  tiny-invariant@1.3.3: {}
-
   to-regex-range@5.0.1:
     dependencies:
       is-number: 7.0.0
@@ -5945,23 +5485,6 @@ snapshots:
     dependencies:
       '@types/unist': 3.0.3
       vfile-message: 4.0.2
-
-  victory-vendor@36.9.2:
-    dependencies:
-      '@types/d3-array': 3.2.1
-      '@types/d3-ease': 3.0.2
-      '@types/d3-interpolate': 3.0.4
-      '@types/d3-scale': 4.0.8
-      '@types/d3-shape': 3.1.6
-      '@types/d3-time': 3.0.4
-      '@types/d3-timer': 3.0.2
-      d3-array: 3.2.4
-      d3-ease: 3.0.1
-      d3-interpolate: 3.0.1
-      d3-scale: 4.0.2
-      d3-shape: 3.2.0
-      d3-time: 3.1.0
-      d3-timer: 3.0.1
 
   vite-tsconfig-paths@5.1.4(typescript@5.7.2)(vite@5.4.11(@types/node@20.17.10)):
     dependencies:

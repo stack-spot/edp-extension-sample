@@ -8,7 +8,9 @@ export function useHeader(): HeaderProps {
   const t = useTranslate(dictionary)
   const theme = useThemeName()
   const language = useLanguage()
-  const { name, email } = sessionManager.getSession().getTokenData()
+  const { name, email } = sessionManager.hasSession()
+    ? sessionManager.getSession().getTokenData()
+    : { name: 'mock user', email: 'user@mock.com' }
 
   return {
     userName: name,

@@ -13,7 +13,7 @@
     "@citric/icons": "5.9.0",
     "@citric/ui": "6.5.5",
     "@stack-spot/citron-navigator": "1.7.0",
-    "@stack-spot/portal-components": "2.10.4",
+    "@stack-spot/portal-components": "2.11.0",
     "@stack-spot/portal-extension": "^0.3.0",
     "@stack-spot/portal-theme": "1.1.0",
     "@stack-spot/portal-translate": "1.2.2",
