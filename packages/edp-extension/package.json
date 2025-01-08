@@ -4,9 +4,11 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "build": "vite build --mode production",
     "start": "pnpm citron && vite --port 3001",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "pnpm preview-extension && pnpm start",
+    "remove-preview": "pnpm remove-extension-preview"
   },
   "dependencies": {
     "@citric/core": "6.4.0",
@@ -14,7 +16,7 @@
     "@citric/ui": "6.5.5",
     "@stack-spot/citron-navigator": "1.7.0",
     "@stack-spot/portal-components": "2.11.0",
-    "@stack-spot/portal-extension": "^0.3.0",
+    "@stack-spot/portal-extension": "^0.5.0",
     "@stack-spot/portal-theme": "1.1.0",
     "@stack-spot/portal-translate": "1.2.2",
     "@tanstack/react-query": "~5.59.15",

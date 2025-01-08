@@ -2,6 +2,7 @@ import { Button, Flex, Text } from '@citric/core'
 import { alert, confirm, showModal, showRightPanel, showToaster } from '@stack-spot/portal-extension'
 import { ProductCard } from 'components/ProductCard'
 import { ReuseCard } from 'components/ReuseCard'
+import { StudiosList } from 'containers/StudiosList'
 import { root, ViewPropsOf } from 'navigation'
 import { styled } from 'styled-components'
 import products from '../mock/products.json'
@@ -116,8 +117,9 @@ export const Home = ({ route }: ViewPropsOf<'root'>) => (
         Abrir uma confirmação
       </Button>
     </Flex>
-    {/* The following only works if logged into Stackspot. As of now, this is not possible when testing locally. */}
-    {/* <Text appearance="h3">Exemplo de chamada de rede: listagem de studios</Text>
-    <StudiosList /> */}
+    <Text appearance="h3">Exemplo de chamada de rede: listagem de studios</Text>
+    {/* The following component will render an error if the extension is not loaded from inside the real EDP Portal.
+    To run the extension inside the EDP Portal, use `pnpm preview` in a terminal window. */}
+    <StudiosList />
   </Styled>
 )

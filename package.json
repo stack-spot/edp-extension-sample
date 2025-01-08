@@ -9,7 +9,9 @@
     "start:extension": "pnpm --filter edp-extension start",
     "start:edp": "pnpm --filter edp-simulation start --mode production",
     "start": "pnpm start:extension & pnpm start:edp",
-    "build": "pnpm --filter edp-extension build"
+    "build": "pnpm --filter edp-extension build",
+    "preview": "pnpm --filter edp-extension preview",
+    "remove-preview": "pnpm --filter edp-extension remove-preview"
   },
   "engines": {
     "node": ">=18",
