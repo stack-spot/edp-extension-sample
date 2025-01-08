@@ -1,20 +1,16 @@
-import { Colors, Enter, Globe } from '@citric/icons'
+import { Colors, Globe } from '@citric/icons'
 import { HeaderProps } from '@stack-spot/portal-layout'
 import { setTheme, useThemeName } from '@stack-spot/portal-theme'
 import { Dictionary, setLanguage, useLanguage, useTranslate } from '@stack-spot/portal-translate'
-import { sessionManager } from './network/session-manager'
 
 export function useHeader(): HeaderProps {
   const t = useTranslate(dictionary)
   const theme = useThemeName()
   const language = useLanguage()
-  const { name, email } = sessionManager.hasSession()
-    ? sessionManager.getSession().getTokenData()
-    : { name: 'mock user', email: 'user@mock.com' }
 
   return {
-    userName: name,
-    email: email,
+    userName: 'mock',
+    email: 'user@mock.com',
     logoHref: '/',
     options: [
       {
@@ -36,12 +32,6 @@ export function useHeader(): HeaderProps {
               { label: 'Português - BR', onClick: () => setLanguage('pt'), active: language === 'pt' },
             ],
           },
-        ],
-      },
-      {
-        type: 'section',
-        children: [
-          { label: t.signOut, icon: <Enter />, onClick: () => sessionManager.logout() },
         ],
       },
     ],

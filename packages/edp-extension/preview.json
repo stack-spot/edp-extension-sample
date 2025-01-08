@@ -1,0 +1,13 @@
+{
+  "slug": "digital-store",
+  "displayName": {
+    "pt": "Loja digital",
+    "en": "Digital Store"
+  },
+  "url": "http://localhost:3001",
+  "links": [
+    {
+      "type": "section"
+    }
+  ]
+}
