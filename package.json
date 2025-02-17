@@ -1,0 +1,21 @@
+{
+  "name": "portal-extensions",
+  "version": "0.0.1",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "start:extension": "pnpm --filter edp-extension start",
+    "start:edp": "pnpm --filter edp-simulation start --mode production",
+    "start": "pnpm start:extension & pnpm start:edp",
+    "build": "pnpm --filter edp-extension build",
+    "preview": "pnpm --filter edp-extension preview",
+    "remove-preview": "pnpm --filter edp-extension remove-preview"
+  },
+  "engines": {
+    "node": ">=18",
+    "pnpm": ">=9"
+  },
+  "packageManager": "pnpm@9.2.0"
+}
