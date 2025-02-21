@@ -17,7 +17,7 @@
   },
   {
     "id": "3",
-    "name": "Índice de Eficiência da Operação ICC",
+    "name": "Índice de Eficiência da Operação",
     "tag": "Introduction",
     "icon": "cog",
     "description": "Data Analytics",
@@ -25,7 +25,7 @@
   },
   {
     "id": "4",
-    "name": "Gestão de Minutas (Netlex)",
+    "name": "Gestão de Minutas",
     "tag": "Maturidade",
     "icon": "users",
     "description": "Ambiente de Trabalho e Colaboração",
