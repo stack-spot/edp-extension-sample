@@ -30,7 +30,7 @@ const Styled = styled.div`
 
 export const Home = ({ route }: ViewPropsOf<'root'>) => (
   <Styled>
-    <Text appearance="h2" colorScheme="primary">Lançamentos IU Digital Store</Text>
+    <Text appearance="h2" colorScheme="primary">Lançamento App Store</Text>
     <Text appearance="h3">Produtos</Text>
     <ul className="card-list">
       {products.map(p => (

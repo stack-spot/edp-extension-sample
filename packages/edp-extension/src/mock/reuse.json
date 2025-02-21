@@ -2,9 +2,9 @@
   {
     "id": "1",
     "tag": "production",
-    "name": "Taskbot AA - Valida Cancelamento Itaucard",
+    "name": "Taskbot AA - Valida Cancelamento",
     "requires": ["Low-code"],
-    "description": "A solução visa acessar o sistema IR Atendimento Itaucard e verificar o status do certificado informado como parâmetro.",
+    "description": "A solução visa acessar o sistema IR Atendimento e verificar o status do certificado informado como parâmetro.",
     "related": ["2"]
   },
   {
@@ -12,7 +12,7 @@
     "tag": "production",
     "name": "Gestão de e-mail",
     "requires": ["Low-code"],
-    "description": "A proposto é fornecer uma forma de gerenciar e-mails para áreas que tem esse canalcomo entrada de demandas.",
+    "description": "A proposta é fornecer uma forma de gerenciar e-mails para áreas que tem esse canal como entrada de demandas.",
     "related": ["3"]
   },
   {
