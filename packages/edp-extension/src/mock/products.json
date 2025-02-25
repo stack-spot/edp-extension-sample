@@ -1,0 +1,34 @@
+[
+  {
+    "id": "1",
+    "name": "Technical Fit",
+    "tag": "Maturidade",
+    "icon": "puzzle",
+    "description": "Gerenciamento e Governança",
+    "favorite": false
+  },
+  {
+    "id": "2",
+    "name": "Portal Plataforma de Dados e Analytics",
+    "tag": "Maturidade",
+    "icon": "table",
+    "description": "Data Analytics",
+    "favorite": false
+  },
+  {
+    "id": "3",
+    "name": "Índice de Eficiência da Operação",
+    "tag": "Introduction",
+    "icon": "cog",
+    "description": "Data Analytics",
+    "favorite": true
+  },
+  {
+    "id": "4",
+    "name": "Gestão de Minutas",
+    "tag": "Maturidade",
+    "icon": "users",
+    "description": "Ambiente de Trabalho e Colaboração",
+    "favorite": false
+  }
+]
