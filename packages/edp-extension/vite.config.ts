@@ -6,6 +6,7 @@ import tsconfigPaths from 'vite-tsconfig-paths'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react(), tsconfigPaths()],
+  base: './',
   resolve: {
     alias: {
       network: resolve(__dirname, './src/network'),
