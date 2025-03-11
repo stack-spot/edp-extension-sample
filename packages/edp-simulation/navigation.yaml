@@ -1,3 +1,1 @@
-+ root (/):
-  workspaceId: string
-  extensionPath: string
++ root (/*):
