@@ -1,15 +1,18 @@
 import { Extension as ExtensionIcon } from '@citric/icons'
 import { Layout } from '@stack-spot/portal-layout'
-import { loadTheme } from '@stack-spot/portal-theme/dist/definition'
+import { Link } from '@stack-spot/citron-navigator'
+import { AnchorProvider } from '@stack-spot/portal-components/anchor'
+import { loadTheme } from '@stack-spot/portal-theme'
 import { useEffect } from 'react'
 import './App.css'
 import { useHeader } from './header'
 import { useContent } from './views/hook'
-import { extensionRegister } from '@stack-spot/portal-extension-backend'
+import { extensionRegister, useExtensionMenu } from '@stack-spot/portal-extension-backend'
 
 export const App = () => {
   const header = useHeader()
   const content = useContent()
+  const menu = useExtensionMenu()
   useEffect(loadTheme, [])
 
   useEffect(() => {
@@ -24,8 +27,10 @@ export const App = () => {
   }, [])
   
   return (
-    <Layout header={header} menu={{ sections: [{ label: 'Extension', active: true, icon: <ExtensionIcon /> }] }}>
-      {content}
-    </Layout>
+    <AnchorProvider anchorTag={Link}>
+      <Layout header={header} menu={{ sections: [{ label: 'Extension', active: true, icon: <ExtensionIcon /> }], content: menu }}>
+        {content}
+      </Layout>
+    </AnchorProvider>
   )
 }

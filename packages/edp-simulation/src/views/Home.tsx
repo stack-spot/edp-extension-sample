@@ -1,6 +1,5 @@
 import { Extension } from '@stack-spot/portal-extension-backend'
-import { ViewPropsOf } from 'navigation'
 
-export const Home = ({ route }: ViewPropsOf<'root'>) => {
+export const Home = () => {
     return <Extension slug="digital-store" pathToParent="/" />
 }
