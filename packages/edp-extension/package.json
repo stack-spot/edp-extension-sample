@@ -4,10 +4,11 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "build": "pnpm citron && vite build --mode production",
+    "build": "pnpm citron && vite build --mode production && pnpm zip-dist",
     "start": "pnpm citron && vite --port 3001",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "pnpm preview-extension --stg && pnpm start",
+    "zip-dist": "cd dist && bestzip ../extension.zip * && cd ..",
     "remove-preview": "pnpm remove-extension-preview",
     "postinstall": "pnpm citron"
   },
@@ -37,6 +38,7 @@
     "@typescript-eslint/eslint-plugin": "^6.10.0",
     "@typescript-eslint/parser": "^6.10.0",
     "@vitejs/plugin-react": "^4.2.0",
+    "bestzip": "^2.2.1",
     "eslint": "^8.53.0",
     "eslint-plugin-filenames": "^1.3.2",
     "eslint-plugin-import": "^2.29.0",
