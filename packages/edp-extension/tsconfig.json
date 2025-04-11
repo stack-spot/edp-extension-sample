@@ -27,7 +27,8 @@
       "containers/*": ["./src/containers/*"],
       "hooks/*": ["./src/hooks/*"],
       "navigation": ["./src/generated/navigation"],
-      "env": ["./src/env"]
+      "env": ["./src/env"],
+      // "@stack-spot/portal-extension": ["../../../portal-workspace/packages/portal-extensions/packages/client/src/index.ts"]
     }
   },
   "include": ["src"],
