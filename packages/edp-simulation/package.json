@@ -18,7 +18,7 @@
     "@stack-spot/auth-react": "2.3.0",
     "@stack-spot/citron-navigator": "1.7.0",
     "@stack-spot/portal-components": "2.11.0",
-    "@stack-spot/portal-extension-backend": "0.7.5",
+    "@stack-spot/portal-extension-backend": "0.10.3",
     "@stack-spot/portal-layout": "2.20.1",
     "@stack-spot/portal-network": "^0.66.0",
     "@stack-spot/portal-theme": "1.1.0",
