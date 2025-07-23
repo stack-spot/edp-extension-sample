@@ -3,7 +3,7 @@
  * the library of your choice or no library at all.
  */
 
-import { cancel, contentClient, getData, submit, workspaceClient } from '@stack-spot/portal-extension'
+import { cancel, contentClient, getData, submit, workspaceClient, workspaceManagerClient } from '@stack-spot/portal-extension'
 import { Flex, Input, Select, Text, Option, Button } from '@citric/core'
 import './App.css'
 import { useEffect, useState } from 'react'
@@ -12,7 +12,7 @@ import { useTranslate } from '@stack-spot/portal-translate'
 import { dictionary } from './dictionary'
 import { onChangeData } from '@stack-spot/portal-extension'
 import { Card, LoadingCircular } from '@citric/ui'
-import { useCurrentPage } from '@stack-spot/portal-extension/dist/portal-data'
+import { useCurrentPage, useUserData } from '@stack-spot/portal-extension/dist/portal-data'
 
 interface Field<T> {
   dirty?: boolean,
@@ -60,12 +60,19 @@ function validate(name: keyof Form, value: string) {
 export const MyForm = () => {
   const t = useTranslate(dictionary)
   const page = useCurrentPage()
+  const { name, email } = useUserData() ?? {}
+  const [selectedVariable, setSelectedVariable] = useState('')
   const [stack, isLoadingStack, stackError] = contentClient.getStackByVersionId.useStatefulQuery(
     { stackVersionId: page?.params.stackVersionId },
     { enabled: !!page?.params.stackVersionId },
   )
   const [workspace, isLoadingWorkspace, workspaceError] = workspaceClient.workspace.useStatefulQuery(
     { workspaceId: page?.params.workspaceId },
+    { enabled: !!page?.params.workspaceId },
+  )
+  const [accountVars, isLoadingAccountVars, accountVarsError] = workspaceManagerClient.accountVariables.useStatefulQuery({ size: 1000 })
+  const [workspaceVars, isLoadingWorkspaceVars, workspaceVarsError] = workspaceManagerClient.workspaceVariables.useStatefulQuery(
+    { workspaceId: page?.params.workspaceId, size: 1000 },
     { enabled: !!page?.params.workspaceId },
   )
   const [form, setForm] = useState<Form>({
@@ -144,7 +151,12 @@ export const MyForm = () => {
   return (
     <Flex flexDirection="column" style={{ gap: '16px' }}>
       <Text appearance="h2">Extension Form</Text>
-      <Card>
+      <Card style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
+        <Text appearance="h4">User data:</Text>
+        <Text>Name: {name}</Text>
+        <Text>Email: {email}</Text>
+      </Card>
+      <Card style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
         <Text appearance="h4">Stack</Text>
         {isLoadingStack && <Flex alignItems="center" justifyContent="center" p={6}><LoadingCircular /></Flex>}
         {stackError && <Text colorScheme="danger">Error while loading stack.</Text>}
@@ -156,7 +168,7 @@ export const MyForm = () => {
           <Text>Description: {stack.stack.description}</Text>
         </>}
       </Card>
-      <Card>
+      <Card style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
         <Text appearance="h4">Workspace</Text>
         {isLoadingWorkspace && <Flex alignItems="center" justifyContent="center" p={6}><LoadingCircular /></Flex>}
         {workspaceError && <Text colorScheme="danger">Error while loading workspace.</Text>}
@@ -166,6 +178,21 @@ export const MyForm = () => {
           <Text>Created at: {new Date(workspace.createdAt).toString()}</Text>
           <Text>Created by: {workspace.createdBy}</Text>
           <Text>Description: {workspace.description}</Text>
+        </>}
+      </Card>
+      <Card style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
+        <Text appearance="h4">Context variables</Text>
+        {(isLoadingWorkspaceVars || isLoadingAccountVars) && <Flex alignItems="center" justifyContent="center" p={6}><LoadingCircular /></Flex>}
+        {(workspaceVarsError || accountVarsError) && <Text colorScheme="danger">Error while loading variables.</Text>}
+        {workspaceVars && accountVars && <>
+          <label>
+            <Text>Select a variable and see its value:</Text>
+            <Select value={selectedVariable} onChange={e => setSelectedVariable(e.target.options[e.target.selectedIndex].getAttribute('value') ?? '')}>
+              <Option></Option>
+              {[...accountVars.items, ...workspaceVars.items].map(v => <Option key={v.name} value={v.name}>{v.name}</Option>)}
+            </Select>
+          </label>
+          <Text>Value: {[...accountVars.items, ...workspaceVars.items].find(v => v.name === selectedVariable)?.value}</Text>
         </>}
       </Card>
       <Form>
