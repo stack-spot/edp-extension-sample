@@ -1,4 +1,5 @@
 packages:
   - 'packages/edp-extension'
   - 'packages/edp-simulation'
+  - 'packages/edp-form-extension'
   

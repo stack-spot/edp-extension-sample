@@ -2,3 +2,4 @@ node_modules/
 dist/
 .DS_Store
 packages/edp-extension/extension.zip
+packages/edp-form-extension/extension.zip
