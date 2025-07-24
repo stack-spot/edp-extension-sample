@@ -102,7 +102,6 @@ export const MyForm = () => {
 
   function change(name: keyof Form) {
     return (e: React.ChangeEvent) => {
-      console.log('changing')
       const value = 'value' in e.target ? e.target.value as string : ''
       const error = form[name].dirty ? validate(name, value) : undefined
       setForm({ ...form, [name]: { ...form[name], value, error }})
