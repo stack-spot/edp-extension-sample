@@ -12,8 +12,8 @@
     "remove-preview": "pnpm remove-extension-preview"
   },
   "dependencies": {
-    "@stack-spot/citric-react": "^0.3.3",
-    "@stack-spot/citric-icons": "^0.1.1",
+    "@stack-spot/citric-react": "^0.7.1",
+    "@stack-spot/citric-icons": "^0.1.3",
     "@stack-spot/portal-extension": "0.16.0",
     "@stack-spot/portal-theme": "1.2.1",
     "@stack-spot/portal-translate": "1.2.2",

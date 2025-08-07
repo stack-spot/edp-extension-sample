@@ -1,4 +1,4 @@
-import { Button, Flex, Text } from '@citric/core'
+import { Button, Row, Text } from '@stack-spot/citric-react'
 import { alert, confirm, showModal, showRightPanel, showToaster } from '@stack-spot/portal-extension'
 import { ProductCard } from 'components/ProductCard'
 import { ReuseCard } from 'components/ReuseCard'
@@ -30,7 +30,7 @@ const Styled = styled.div`
 
 export const Home = ({ route }: ViewPropsOf<'root'>) => (
   <Styled>
-    <Text appearance="h2" colorScheme="primary">Lançamento App Store</Text>
+    <Text appearance="h2" color="primary.500">Lançamento App Store</Text>
     <Text appearance="h3">Produtos</Text>
     <ul className="card-list">
       {products.map(p => (
@@ -47,10 +47,10 @@ export const Home = ({ route }: ViewPropsOf<'root'>) => (
         </li>
       ))}
     </ul>
-    <Flex justifyContent="space-between" alignItems="center">
+    <Row justifyContent="space-between">
       <Text appearance="h3">Componentes para reúso</Text>
       <Button appearance="outlined" colorScheme="inverse">abrir biblioteca</Button>
-    </Flex>
+    </Row>
     <ul className="card-list">
       {reuse.map(r => (
         <li key={r.id}>
@@ -64,7 +64,7 @@ export const Home = ({ route }: ViewPropsOf<'root'>) => (
       ))}
     </ul>
     <Text appearance="h3">Exemplos de interações com overlays</Text>
-    <Flex>
+    <Row gap="10px">
       <Button
         colorScheme="inverse"
         onClick={() => showModal({
@@ -116,7 +116,7 @@ export const Home = ({ route }: ViewPropsOf<'root'>) => (
       >
         Abrir uma confirmação
       </Button>
-    </Flex>
+    </Row>
     <Text appearance="h3">Exemplo de chamada de rede: listagem de studios</Text>
     {/* The following component will render an error if the extension is not loaded from inside the real EDP Portal.
     To run the extension inside the EDP Portal, use `pnpm preview` in a terminal window. */}

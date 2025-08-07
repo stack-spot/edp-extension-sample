@@ -1,5 +1,5 @@
 import { contentClient } from '@stack-spot/portal-extension'
-import { AsyncContent } from 'components/AsyncContent'
+import { AsyncContent } from '@stack-spot/citric-react'
 
 export const StudiosList = () => {
   const [studios, isLoading, error] = contentClient.studios.useStatefulQuery({})

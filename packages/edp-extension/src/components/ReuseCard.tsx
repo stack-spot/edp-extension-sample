@@ -1,5 +1,4 @@
-import { Button, Text } from '@citric/core'
-import { Badge, Card } from '@citric/ui'
+import { Text, Badge, Card, CitricComponent } from '@stack-spot/citric-react'
 import { Link } from '@stack-spot/citron-navigator'
 import { styled } from 'styled-components'
 
@@ -12,8 +11,6 @@ interface Props {
 
 const StyledCard = styled(Card)`
   position: relative;
-  display: flex;
-  flex-direction: column;
   gap: 20px;
   align-items: center;
   text-align: center;
@@ -22,11 +19,11 @@ const StyledCard = styled(Card)`
 `
 
 export const ReuseCard = ({ description, href, name, requires }: Props) => (
-  <StyledCard>
-    <Badge appearance="square" palette="pink">Produção</Badge>
+  <StyledCard bgLevel={400}>
+    <Badge appearance="square" colorPalette="pink">Produção</Badge>
     <Text appearance="h4">{name}</Text>
-    <Text colorScheme="light.700" weight="bold">{requires.join(', ')}</Text>
+    <Text color="light.700" weight="bold">{requires.join(', ')}</Text>
     <Text>{description}</Text>
-    <Link href={href}><Button>abrir componente</Button></Link>
+    <CitricComponent render={Link} component="button" href={href}>abrir componente</CitricComponent>
   </StyledCard>
 )

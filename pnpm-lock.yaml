@@ -10,27 +10,21 @@ importers:
 
   packages/edp-extension:
     dependencies:
-      '@citric/core':
-        specifier: 6.4.0
-        version: 6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
-      '@citric/icons':
-        specifier: 5.9.0
-        version: 5.9.0(react@18.3.1)
-      '@citric/ui':
-        specifier: 6.5.5
-        version: 6.5.5(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
+      '@stack-spot/citric-icons':
+        specifier: ^0.1.3
+        version: 0.1.3
+      '@stack-spot/citric-react':
+        specifier: ^0.7.1
+        version: 0.7.1(@stack-spot/citric-icons@0.1.3)(@stack-spot/portal-theme@1.2.1(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-translate@1.2.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(lodash@4.17.21)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@stack-spot/citron-navigator':
         specifier: 1.7.0
         version: 1.7.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@stack-spot/portal-components':
-        specifier: 2.11.0
-        version: 2.11.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(@citric/ui@6.5.5(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-theme@1.1.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-translate@1.2.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.20)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@stack-spot/portal-extension':
         specifier: 0.10.2
-        version: 0.10.2(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(@citric/ui@6.5.5(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-theme@1.1.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-translate@1.2.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@tanstack/react-query@5.59.20(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
+        version: 0.10.2(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(@citric/ui@6.5.5(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-theme@1.2.1(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-translate@1.2.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@tanstack/react-query@5.59.20(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
       '@stack-spot/portal-theme':
-        specifier: 1.1.0
-        version: 1.1.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
+        specifier: 1.2.1
+        version: 1.2.1(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
       '@stack-spot/portal-translate':
         specifier: 1.2.2
         version: 1.2.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -117,11 +111,11 @@ importers:
   packages/edp-form-extension:
     dependencies:
       '@stack-spot/citric-icons':
-        specifier: ^0.1.1
-        version: 0.1.1
+        specifier: ^0.1.3
+        version: 0.1.3
       '@stack-spot/citric-react':
-        specifier: ^0.3.3
-        version: 0.3.3(@stack-spot/citric-icons@0.1.1)(@stack-spot/portal-theme@1.2.1(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-translate@1.2.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(lodash@4.17.21)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        specifier: ^0.7.1
+        version: 0.7.1(@stack-spot/citric-icons@0.1.3)(@stack-spot/portal-theme@1.2.1(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-translate@1.2.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(lodash@4.17.21)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@stack-spot/portal-extension':
         specifier: 0.16.0
         version: 0.16.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(@citric/ui@6.5.5(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-theme@1.2.1(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-translate@1.2.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@tanstack/react-query@5.59.20(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
@@ -769,11 +763,11 @@ packages:
   '@stack-spot/auth@5.3.3':
     resolution: {integrity: sha512-aHLiXyWnlfO2Al4fnyf15J/eZWeUIRr4alJ4wnowJI4tUGDiTrqj7UqJe1MTvz1qzmYiykWOfYc9NglL3X78IQ==}
 
-  '@stack-spot/citric-icons@0.1.1':
-    resolution: {integrity: sha512-cgk/5D0LYssCu3ZQzmVlCh8AHZn5PJJRSPA0BCwCY5OcSEbMvhee0/N/aKJDLVnqaYgpht5JpgwexAi//lkj/A==}
+  '@stack-spot/citric-icons@0.1.3':
+    resolution: {integrity: sha512-D/KRY7FWR54iyi/2YDEY1o7ZGP/o/eik9L0gusNmZHSsdoqa3LRWxkvkFVW9bIehZ8H/AnRh+GZgbZzLmLxdBg==}
 
-  '@stack-spot/citric-react@0.3.3':
-    resolution: {integrity: sha512-DfXdQMWSGwYm/Utq8BFi+gR45cbn8x8t82jHJ62JG8ncXrSTl2hiaRXmPOaP91ztNiwYC9jJLMFq1Tm3IftpGw==}
+  '@stack-spot/citric-react@0.7.1':
+    resolution: {integrity: sha512-5tQtWL/BgOfTWQlYUEknb9fuEzmkoeoZlL+LUaHt+wVlCeDd2/vL90YNsgg3+tWOoGbgSYCGd8bEliDDcpiJPw==}
     peerDependencies:
       '@stack-spot/citric-icons': '>=0.1.1'
       '@stack-spot/portal-theme': '>=1.2.0'
@@ -3372,11 +3366,11 @@ snapshots:
       jose: 5.10.0
       lodash: 4.17.21
 
-  '@stack-spot/citric-icons@0.1.1': {}
+  '@stack-spot/citric-icons@0.1.3': {}
 
-  '@stack-spot/citric-react@0.3.3(@stack-spot/citric-icons@0.1.1)(@stack-spot/portal-theme@1.2.1(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-translate@1.2.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(lodash@4.17.21)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@stack-spot/citric-react@0.7.1(@stack-spot/citric-icons@0.1.3)(@stack-spot/portal-theme@1.2.1(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-translate@1.2.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(lodash@4.17.21)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
-      '@stack-spot/citric-icons': 0.1.1
+      '@stack-spot/citric-icons': 0.1.3
       '@stack-spot/portal-theme': 1.2.1(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
       '@stack-spot/portal-translate': 1.2.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       lodash: 4.17.21
@@ -3452,6 +3446,17 @@ snapshots:
       react-dom: 18.3.1(react@18.3.1)
       styled-components: 6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
 
+  '@stack-spot/portal-extension-commons@0.5.3(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(@citric/ui@6.5.5(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-theme@1.2.1(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-translate@1.2.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1))':
+    dependencies:
+      '@citric/core': 6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
+      '@citric/icons': 5.9.0(react@18.3.1)
+      '@citric/ui': 6.5.5(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
+      '@stack-spot/portal-theme': 1.2.1(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
+      '@stack-spot/portal-translate': 1.2.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+      styled-components: 6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+
   '@stack-spot/portal-extension-commons@0.7.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(@citric/ui@6.5.5(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-theme@1.2.1(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-translate@1.2.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1))':
     dependencies:
       '@citric/core': 6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
@@ -3463,13 +3468,13 @@ snapshots:
       react-dom: 18.3.1(react@18.3.1)
       styled-components: 6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
 
-  '@stack-spot/portal-extension@0.10.2(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(@citric/ui@6.5.5(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-theme@1.1.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-translate@1.2.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@tanstack/react-query@5.59.20(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1))':
+  '@stack-spot/portal-extension@0.10.2(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(@citric/ui@6.5.5(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-theme@1.2.1(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-translate@1.2.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@tanstack/react-query@5.59.20(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1))':
     dependencies:
       '@citric/core': 6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
       '@citric/icons': 5.9.0(react@18.3.1)
       '@citric/ui': 6.5.5(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
-      '@stack-spot/portal-extension-commons': 0.5.3(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(@citric/ui@6.5.5(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-theme@1.1.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-translate@1.2.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
-      '@stack-spot/portal-theme': 1.1.0(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
+      '@stack-spot/portal-extension-commons': 0.5.3(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(@citric/ui@6.5.5(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@citric/icons@5.9.0(react@18.3.1))(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-theme@1.2.1(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@stack-spot/portal-translate@1.2.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
+      '@stack-spot/portal-theme': 1.2.1(@citric/core@6.4.0(lodash@4.17.21)(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
       '@stack-spot/portal-translate': 1.2.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@tanstack/react-query': 5.59.20(react@18.3.1)
       open: 10.1.0

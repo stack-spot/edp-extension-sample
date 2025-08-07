@@ -1,8 +1,8 @@
 {
-  "slug": "digital-store",
+  "slug": "digital-store-citric",
   "displayName": {
-    "pt": "Loja digital",
-    "en": "Digital Store"
+    "pt": "Loja digital (Citric)",
+    "en": "Digital Store (Citric)"
   },
   "url": "http://localhost:3001",
   "links": [
