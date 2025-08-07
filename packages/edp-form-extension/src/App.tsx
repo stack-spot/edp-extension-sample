@@ -4,7 +4,6 @@
  */
 
 import { StackspotExtension } from '@stack-spot/portal-extension'
-import './App.css'
 import { MyForm } from './MyForm'
 
 export const App = () =>  <StackspotExtension><MyForm /></StackspotExtension>
