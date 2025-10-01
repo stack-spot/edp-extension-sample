@@ -1,7 +1,6 @@
-import { Button, IconBox, Text } from '@citric/core'
-import { Cog, Heart, HeartFill, Puzzle, Table, Users } from '@citric/icons'
-import { Badge, Card, IconButton } from '@citric/ui'
+import { IconBox, Text, Badge, Card, IconButton, CitricComponent } from '@stack-spot/citric-react'
 import { Link } from '@stack-spot/citron-navigator'
+import { capitalize } from 'lodash'
 import { styled } from 'styled-components'
 
 interface Props {
@@ -14,17 +13,8 @@ interface Props {
   onChangeFavorite: (value: boolean) => void,
 }
 
-const icons: Record<Props['icon'], React.ReactNode> = {
-  puzzle: <Puzzle />,
-  table: <Table />,
-  cog: <Cog />,
-  users: <Users />,
-}
-
 const StyledCard = styled(Card)`
   position: relative;
-  display: flex;
-  flex-direction: column;
   gap: 20px;
   align-items: center;
   text-align: center;
@@ -42,15 +32,19 @@ const StyledCard = styled(Card)`
 `
 
 export const ProductCard = ({ tag, description, href, icon, name, isFavorite, onChangeFavorite }: Props) => (
-  <StyledCard>
-    <IconBox size="lg">{icons[icon]}</IconBox>
+  <StyledCard bgLevel={400}>
+    <IconBox icon={capitalize(icon)} size="lg" />
     <Text appearance="h4">{name}</Text>
     <Text>{description}</Text>
-    <Text colorScheme="primary" weight="bold">NOVO</Text>
-    <Link href={href}><Button>acessar produto</Button></Link>
+    <Text color="primary.500" weight="bold">NOVO</Text>
+    <CitricComponent render={Link} component="button" href={href}>acessar produto</CitricComponent>
     <div className="overlay">
-      <Badge appearance="square" palette={tag === 'Maturidade' ? 'blue' : 'yellow'}>{tag}</Badge>
-      <IconButton onClick={() => onChangeFavorite(!isFavorite)}>{isFavorite ? <HeartFill /> : <Heart />}</IconButton>
+      <Badge appearance="square" colorPalette={tag === 'Maturidade' ? 'blue' : 'yellow'}>{tag}</Badge>
+      <IconButton
+        group={isFavorite ? 'fill' : 'outline'}
+        icon={isFavorite ? 'HeartFill' : 'Heart'}
+        onClick={() => onChangeFavorite(!isFavorite)}
+      />
     </div>
   </StyledCard>
 )
